@@ -14,6 +14,15 @@ body{
     text-transform: uppercase;
 }
 
+.firstSection h3 {
+    font-family: 'Dancing Script', cursive;
+    text-transform: capitalize;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 72px;
+    color: white;
+}
+
 nav {
     text-transform: uppercase;
 }
