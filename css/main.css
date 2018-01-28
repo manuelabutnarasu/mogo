@@ -4,9 +4,42 @@
    Author's custom styles
    ========================================================================== */
 
+body{
+    background-color: darkgray;
+}
+.firstSection{
+    background-image: url("../img/section1Background.png");
+    padding-top: 210px;
+    padding-bottom: 244px;
+    text-transform: uppercase;
+}
 
+nav {
+    text-transform: uppercase;
+}
 
+nav span{
+    color: white;
+    font-size: 30px;
+}
 
+nav li {
+    display: inline-block;
+    color: white;
+    list-style-type: none;
+    padding-left: 40px;
+    font-size: 14px;
+}
+
+nav li.active {
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+nav li:hover{
+    color: yellow;
+    border: 1px solid yellow;
+}
 
 
 
