@@ -19,8 +19,16 @@ body{
     text-transform: capitalize;
     margin-top: 0px;
     text-align: center;
+    font-size: 36px;
+    color: white;
+}
+.firstSection h1 {
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 16px;
+    text-align: center;
     font-size: 72px;
     color: white;
+    font-weight: bold;
 }
 
 nav {
