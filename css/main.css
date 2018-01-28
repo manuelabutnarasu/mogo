@@ -55,31 +55,59 @@ body{
     margin-top: 30px;
 }
 
+.firstSection button:hover {
+    background-color: white;
+    color: #e88282;
+}
+
 nav {
-    text-transform: uppercase;
+    
+    position: fixed;
+    top: 8px;
+    width: 100%;
 }
 
 nav span{
     color: white;
     font-size: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: 12px;
 }
 
 nav li {
+    text-transform: uppercase;
     display: inline-block;
     color: white;
     list-style-type: none;
-    padding-left: 40px;
+    margin-left: 40px;
     font-size: 14px;
 }
 
-nav li.active {
-    color: yellow;
-    border: 1px solid yellow;
+nav li a{
+    color: white;
+    text-decoration: none;
 }
 
-nav li:hover{
+nav li.active a {
     color: yellow;
-    border: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+    text-decoration: none;
+}
+
+nav li:hover a{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+    text-decoration: none;
+}
+nav li:hover a.noBorder {
+    border-bottom: 0px;
+    text-decoration: none;
 }
 
 
