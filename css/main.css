@@ -30,9 +30,20 @@ body{
     color: white;
     font-weight: bold;
 }
+.firstSection span {
+    width: 60px;
+    height: 4px;
+    background-color: white;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
 
 nav {
     text-transform: uppercase;
+    display: inline-block;
 }
 
 nav span{
