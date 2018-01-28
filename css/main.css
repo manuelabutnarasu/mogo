@@ -41,9 +41,22 @@ body{
     margin-top: 40px;
 }
 
+.firstSection button {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
 nav {
     text-transform: uppercase;
-    display: inline-block;
 }
 
 nav span{
