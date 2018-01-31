@@ -5,13 +5,19 @@
    ========================================================================== */
 
 body{
-    background-color: darkgray;
+    /* background-color: darkgray; */
+}
+
+img {
+    max-width: 100%;
 }
 
 nav {
     position: fixed;
-    top: 8px;
+    padding-top: 8px;
     width: 100%;
+    background-color: #e88282;
+    z-index: 9999;
 }
 
 nav span{
@@ -81,7 +87,7 @@ nav li:hover a.noBorder {
 }
 .firstSection span {
     width: 60px;
-    height: 4px;
+    height: 3px;
     background-color: white;
     display: block;
     position: relative;
@@ -109,17 +115,177 @@ nav li:hover a.noBorder {
     color: #e88282;
 }
 
+.secondSection {
+    color: black;
+    margin-bottom: 110px;
+}
 
+.secondSection h4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 95px;
+}
 
+.secondSection h2 {
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 27px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
 
+.secondSection span {
+    width: 60px;
+    height: 3px;
+    background-color: #e88282;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
 
+.secondSection p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 47px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
 
+.containerAnimatedImages div {
+    transition: margin 1s;
+}
+.containerAnimatedImages img {
+    box-shadow: 0px 0px #95e1d3;
+    transition: box-shadow 1s ;
+}
 
+.containerAnimatedImages div:hover {
+    margin: -10px 10px 10px -10px;
+}
 
+.containerAnimatedImages img:hover {
+    box-shadow: 10px 10px #95e1d3;
+}
 
+.thirdSection {
+    background-color: #95e1d3;
+}
 
+.thirdSection ul {
+    list-style-type: none;
+}
 
+.thirdSection li {
+    text-transform: uppercase;
+    display: inline-block;
+    color: white;
+    width: 19%;
+    vertical-align: top;
+}
 
+.thirdSection li h1 {
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+}
 
+.thirdSection li p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
 
+.fourthSection {
+    margin-top: 109px;
+}
 
+.fourthSection h4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 95px;
+}
+
+.fourthSection h2 {
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.fourthSection span {
+    width: 60px;
+    height: 3px;
+    background-color: #e88282;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.fourthSection img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.fourthSection h5 {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fourthSection p {
+    margin-left: 42px;
+    margin-bottom: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.footerHome {
+    background-color: darkgray;
+    color: white;
+}
+
+.footerHome p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.footerHome h6 {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#map {
+    background-color: darkcyan;
+    height: 75%;
+    width: 100%;
+}
+
+.footerHome form {
+    margin-bottom: 20px;
+}
+
+.footerHome form input {
+    margin-bottom: 5px;
+}
